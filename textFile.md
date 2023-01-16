@@ -33,3 +33,14 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+## Create a table
+
+``` r
+load(file = 'cotxes.RData')
+prop.table(table(carsTrain$combustible))
+```
+
+    ## 
+    ##    diesel  gasolina 
+    ## 0.4126984 0.5873016
