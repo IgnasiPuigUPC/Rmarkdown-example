@@ -2,7 +2,7 @@
 title: "Prova Rmadown i GitHub"
 author: "Ignasi Puig"
 date: '`r Sys.Date()`'
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
